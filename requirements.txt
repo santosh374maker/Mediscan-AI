@@ -1,0 +1,49 @@
+# Core API
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+slowapi==0.1.9
+
+# Database
+sqlalchemy==2.0.36
+
+# RAG & Embeddings
+sentence-transformers==3.0.1
+faiss-cpu
+rank-bm25==0.2.2
+numpy==1.26.4
+pandas==2.2.2
+
+# ML risk models
+xgboost==2.1.1
+scikit-learn==1.5.1
+
+# Caching
+diskcache==5.6.3
+
+# LLM
+requests==2.32.3
+httpx==0.27.0
+python-dotenv==1.0.1
+
+# PDF Processing
+pdfplumber==0.11.0
+PyMuPDF==1.24.5
+pdf2image==1.17.0
+pytesseract==0.3.10
+Pillow==10.3.0
+
+# Report Generation
+reportlab==4.2.2
+
+# UI
+streamlit==1.36.0
+
+# Language detection
+langdetect==1.0.9
+
+# Testing
+pytest==8.2.2

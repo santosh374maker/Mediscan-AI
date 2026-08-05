@@ -1,0 +1,17 @@
+[
+  {"query": "what does high TSH mean", "expected_title_contains": "Thyroid"},
+  {"query": "low haemoglobin causes fatigue", "expected_title_contains": "Complete Blood Count"},
+  {"query": "HbA1c prediabetes range", "expected_title_contains": "Blood Sugar"},
+  {"query": "ALT AST liver enzyme elevated", "expected_title_contains": "Liver"},
+  {"query": "eGFR kidney filtration rate normal", "expected_title_contains": "Kidney"},
+  {"query": "HDL good cholesterol higher is better", "expected_title_contains": "Lipid"},
+  {"query": "ferritin iron deficiency anaemia", "expected_title_contains": "Iron"},
+  {"query": "why reference ranges are population estimates", "expected_title_contains": "How to Read a Blood Report"},
+  {"query": "platelets low bleeding risk", "expected_title_contains": "Complete Blood Count"},
+  {"query": "triglycerides pancreatitis risk", "expected_title_contains": "Lipid"},
+  {"query": "creatinine muscle waste product kidney", "expected_title_contains": "Kidney"},
+  {"query": "bilirubin jaundice yellowing skin", "expected_title_contains": "Liver"},
+  {"query": "metabolic syndrome pattern insulin resistance", "expected_title_contains": "Blood Sugar"},
+  {"query": "TIBC total iron binding capacity", "expected_title_contains": "Iron"},
+  {"query": "MCV MCH red blood cell size anaemia type", "expected_title_contains": "Complete Blood Count"}
+]

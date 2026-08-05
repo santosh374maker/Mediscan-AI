@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+data/
+logs/
+.DS_Store
+.pytest_cache/
+src/ml/models/*.json
+!src/ml/models/.gitkeep
+eval/results/*.json
+!eval/results/.gitkeep

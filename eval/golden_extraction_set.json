@@ -1,0 +1,61 @@
+[
+  {
+    "id": "report_1",
+    "text": "COMPLETE BLOOD COUNT\nHaemoglobin: 11.2 g/dL\nWBC 9.8 10^3/uL\nRBC - 4.6 10^6/uL\nPlatelets  310 10^3/uL\nHematocrit: 34 %\nMCV 78 fL\nMCH 26 pg",
+    "ground_truth": {
+      "haemoglobin": 11.2, "wbc": 9.8, "rbc": 4.6, "platelets": 310,
+      "hematocrit": 34, "mcv": 78, "mch": 26
+    }
+  },
+  {
+    "id": "report_2",
+    "text": "LIPID PROFILE\nTotal Cholesterol : 215 mg/dL\nLDL Cholesterol - 142 mg/dL\nHDL Cholesterol: 38 mg/dL\nTriglycerides 190 mg/dL",
+    "ground_truth": {
+      "total cholesterol": 215, "ldl": 142, "hdl": 38, "triglycerides": 190
+    }
+  },
+  {
+    "id": "report_3",
+    "text": "DIABETES PANEL\nFasting Glucose: 128 mg/dL\nHbA1c - 6.9 %\nPostprandial Glucose 178 mg/dL",
+    "ground_truth": {
+      "glucose fasting": 128, "hba1c": 6.9, "postprandial glucose": 178
+    }
+  },
+  {
+    "id": "report_4",
+    "text": "LIVER FUNCTION TEST\nSGPT (ALT): 68 U/L\nSGOT (AST) - 54 U/L\nAlkaline Phosphatase: 132 U/L\nTotal Bilirubin 1.6 mg/dL\nAlbumin: 3.1 g/dL",
+    "ground_truth": {
+      "alt": 68, "ast": 54, "alkaline phosphatase": 132,
+      "bilirubin total": 1.6, "albumin": 3.1
+    }
+  },
+  {
+    "id": "report_5",
+    "text": "KIDNEY FUNCTION TEST\nSerum Creatinine: 1.4 mg/dL\nBlood Urea 42 mg/dL\nBUN - 20 mg/dL\nUric Acid: 7.8 mg/dL\neGFR 58 mL/min/1.73m2",
+    "ground_truth": {
+      "creatinine": 1.4, "urea": 42, "bun": 20, "uric acid": 7.8, "egfr": 58
+    }
+  },
+  {
+    "id": "report_6",
+    "text": "THYROID PROFILE\nTSH: 7.2 mIU/L\nT3 - 95 ng/dL\nT4 4.1 ug/dL\nFree T4: 0.6 ng/dL",
+    "ground_truth": {
+      "tsh": 7.2, "t3": 95, "t4": 4.1, "free t4": 0.6
+    }
+  },
+  {
+    "id": "report_7",
+    "text": "IRON STUDIES\nSerum Iron: 42 ug/dL\nFerritin - 8 ng/mL\nTIBC 410 ug/dL",
+    "ground_truth": {
+      "serum iron": 42, "ferritin": 8, "tibc": 410
+    }
+  },
+  {
+    "id": "report_8",
+    "text": "CBC + DIFFERENTIAL\nHb 15.9 g/dL\nTotal WBC Count: 12.4 10^3/uL\nNeutrophils - 78 %\nLymphocytes: 15 %\nPlatelet Count 145 10^3/uL",
+    "ground_truth": {
+      "haemoglobin": 15.9, "wbc": 12.4, "neutrophils": 78,
+      "lymphocytes": 15, "platelets": 145
+    }
+  }
+]
