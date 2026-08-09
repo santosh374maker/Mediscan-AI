@@ -24,17 +24,17 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Run pytest suite
-        run: python -m pytest tests/ -v
-
       - name: Build knowledge base (BM25 index; dense index best-effort)
         run: python -m scripts.build_knowledge_base
 
-      - name: Run RAG retrieval eval
-        run: python -m eval.run_rag_eval
-
       - name: Train specialist ML risk models
         run: python -m src.ml.train
+
+      - name: Run pytest suite
+        run: python -m pytest tests/ -v
+
+      - name: Run RAG retrieval eval
+        run: python -m eval.run_rag_eval
 
       - name: Run extraction eval
         run: python -m eval.run_extraction_eval
