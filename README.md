@@ -8,6 +8,9 @@ demo, on purpose: it exists to demonstrate production-minded ML engineering
 practices (evaluation, structured output, graceful degradation, observability,
 security) on top of the core LLM/RAG features, not just "call an LLM API."
 
+
+##🚀 **Live Demo & Links**
+
 ## Architecture
 
 ```
