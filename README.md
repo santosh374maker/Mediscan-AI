@@ -9,7 +9,7 @@ practices (evaluation, structured output, graceful degradation, observability,
 security) on top of the core LLM/RAG features, not just "call an LLM API."
 
 
-##🚀 Live Demo & Links
+## 🚀 Live Demo & Links
 
 ## Architecture
 
